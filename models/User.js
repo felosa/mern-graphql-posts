@@ -1,4 +1,4 @@
-const { model, Schema } = erquire("mongoose");
+const { model, Schema } = require("mongoose");
 
 const userSchema = new Schema({
   username: String,
